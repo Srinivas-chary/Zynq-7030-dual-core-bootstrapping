@@ -1,0 +1,8 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/srinivas/workspace/fsbl_RT_CHECKOUT/Debug/fsbl_RT_CHECKOUT.elf
+	/home/srinivas/workspace/RT_HW/design_1_wrapper.bit
+	/home/srinivas/workspace/QSPI_CORE_0/Debug/QSPI_CORE_0.elf
+	/home/srinivas/workspace/QSPI_CORE_1/Debug/QSPI_CORE_1.elf
+}
